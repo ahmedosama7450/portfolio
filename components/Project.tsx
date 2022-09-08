@@ -10,7 +10,7 @@ export const Project = ({
   previewLink?: string;
 }) => {
   return (
-    <div className="flex-1 h-36 flex flex-col">
+    <div className="flex-1 h-48 md:h-40 lg:h-36 flex flex-col overflow-y-auto">
       <div className="font-semibold text-base text-gray-700">{title}</div>
       <div className="text-gray-600 text-sm mt-0.5 leading-relaxed">
         {description}

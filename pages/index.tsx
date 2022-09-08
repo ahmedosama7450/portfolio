@@ -62,7 +62,7 @@ const Home: NextPage = () => {
               Open source libraries I am proud of
             </div>
 
-            <div className="flex items-start flex-wrap gap-6 mr-10 mt-3">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mr-10 mt-3">
               {openSourceProjects.map((project, index) => (
                 <Project key={index} {...project} />
               ))}
